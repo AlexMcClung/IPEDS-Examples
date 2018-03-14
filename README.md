@@ -1,4 +1,4 @@
-test-repo
+Working with IPEDS Data
 =========
 
 Test R code:
