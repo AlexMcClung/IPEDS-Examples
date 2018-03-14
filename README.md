@@ -11,10 +11,9 @@ To facilitate pulling data on many schools at once, the [IPEDS data center](http
 
 An alternative way of entering multiple school schools at once is to cut and paste a comma-separated list directly into the search box.
 
-![shot](ipeds-institutions.PNG)
+![shot1](ipeds-institutions.PNG)
 
 In R, with a data set of UnitIDs, you can `dput()` them to the console and paste them that way:
-
 ```r
 require('tidyverse')
 
@@ -23,6 +22,6 @@ df <- read_csv('annapolis-group.csv')
 dput(as.numeric(df$UnitID))
 
 ```
-
+![shot2](ipeds-comma-sep.PNG)
 
 
