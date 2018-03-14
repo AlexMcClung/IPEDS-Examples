@@ -1,4 +1,4 @@
-Working with IPEDS Data
+Selecting Institutions in Bulk in the IPEDS Data Center
 =========
 
 To facilitate pulling data on many schools at once, the [IPEDS data center](https://nces.ed.gov/ipeds/use-the-data
