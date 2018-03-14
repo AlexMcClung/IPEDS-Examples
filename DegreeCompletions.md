@@ -11,7 +11,7 @@ This is particularly handy for looking at field of degree completion trends when
 * Carnegie CIP Coding (optional) - for comparing mix of lib arts / pre professional
 
 ### Process
-Save all completions files in one folder
+Save all completions csv files into one dedicated folder. The code below assumes they are all named 'c_YYYY' as they are when you download and unzip them from IPEDS. This code subsets files based on Bachelors degrees and throws out the summation rows. These steps can obviously be modified depending on the purpose of the analysis. The end product is a set of 'cYYYY' data sets in your R workspace.
 ```r
 require('tidyverse')
 
