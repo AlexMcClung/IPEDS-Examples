@@ -8,7 +8,7 @@ This is particularly handy for looking at field of degree completion trends when
 * IPEDS Degree Completions
 * IPEDS Institutional Characteristics
 * [CIP lookup file](https://nces.ed.gov/ipeds/cipcode/resources.aspx?y=55) - Download CIPCode2010 file for CIP titles and descriptions
-* Carnegie CIP Coding (optional) - for comparing mix of lib arts / pre professional
+* [Carnegie CIP Coding](http://carnegieclassifications.iu.edu/downloads.php) (optional) - for comparing mix of lib arts / pre professional
 
 ### Process
 Save all completions csv files into one dedicated folder. The code below assumes they are all named 'c_YYYY' as they are when you download and unzip them from IPEDS. This code subsets files based on Bachelors degrees and throws out the summation rows. These steps can obviously be modified depending on the purpose of the analysis. The end product is a set of 'cYYYY' data sets in your R workspace.
