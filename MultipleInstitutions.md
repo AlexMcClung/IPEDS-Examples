@@ -22,6 +22,6 @@ df <- read_csv('annapolis-group.csv')
 dput(as.numeric(df$UnitID))
 
 ```
-![shot2](ipeds-comma-sep.PNG)
+![shot2](img/ipeds-comma-sep.PNG)
 
 Once you paste these in, the search tool will detect the schools and you can press *Select* and continue on with choosing your variables of interest.
