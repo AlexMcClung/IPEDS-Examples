@@ -64,7 +64,11 @@ rect.hclust(h, h = 3, border = "red")
 # find out who is in same cluster
 grp <- cutree(h, h = 3)
 
-grp[grp==22] # print school names
+sch <- 'Drew University' # your school here
+
+i <- grp[sch] # get index
+
+grp[grp == i] # print school names
 
 (n <- names(grp[grp==22]))
 
