@@ -9,3 +9,5 @@ require('tidyverse')
 df <- read_csv('data-set.csv')
 
 ```
+
+![shot](ipeds-institutions.PNG)
