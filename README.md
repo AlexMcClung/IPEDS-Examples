@@ -13,7 +13,7 @@ An alternative way of entering multiple school schools at once is to cut and pas
 
 ![shot1](ipeds-institutions.PNG)
 
-In R, with a data set of UnitIDs, you can `dput()` them to the console and paste them that way:
+In R, with a data set of UnitIDs, you can `dput()` them to the console and paste them right in:
 ```r
 require('tidyverse')
 
