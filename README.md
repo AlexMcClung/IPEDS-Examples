@@ -24,4 +24,4 @@ dput(as.numeric(df$UnitID))
 ```
 ![shot2](ipeds-comma-sep.PNG)
 
-
+Once you paste these in, the search tool will deteact the schools and you can press *Select* and continue by choosing variables of interest.
