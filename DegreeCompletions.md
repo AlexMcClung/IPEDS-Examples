@@ -31,4 +31,16 @@ comp <- function(fn){
 map(lst, comp)
 
 ```
-Once you have the data sets in your workspace, you can aggregate by institution, by CIP, etc. and combine years.
+Once you have the data sets in your workspace, you can aggregate by institution, by CIP, etc. and combine years. This snippet aggregates by school and CIP and then combines all years together.
+```r
+# run for each year
+AY12 <- c2012 %>% 
+  group_by(UNITID, CIPCODE) %>% 
+  summarize(AY12 = sum(CTOTALT))
+
+# combine all years into one data frame
+df <- reduce(list(AY12, AY13, AY14, AY15, AY16), full_join, by = c('UNITID', 'CIPCODE'))
+
+```
+
+
