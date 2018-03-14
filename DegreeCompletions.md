@@ -42,5 +42,8 @@ AY12 <- c2012 %>%
 df <- reduce(list(AY12, AY13, AY14, AY15, AY16), full_join, by = c('UNITID', 'CIPCODE'))
 
 ```
+Now that you have one data frame with 5 yrs of completions by institution / CIP, you can merge in information about the institutions and the CIPs.
 
+Some ideas include using geographic information like Census area (IPEDS CBSA variable) to look at local competitors for degrees. You could even map these using the lat & long coordinates that are made available in the IPEDS institutional characteristics data set.
 
+You could also use the Carnegie CIP categories (art & sci vs. professional) to examine your mix of these types of degrees versus your comparison schools.
