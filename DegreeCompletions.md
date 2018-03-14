@@ -1,4 +1,4 @@
-Stacking IPEDS Degree Completions Files
+Working with IPEDS Degree Completions Files
 =========
 IPEDS allows you to download national data sets for some of its surveys [here](https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx).
 
@@ -31,3 +31,4 @@ comp <- function(fn){
 map(lst, comp)
 
 ```
+Once you have the data sets in your workspace, you can aggregate by institution, by CIP, etc. and combine years.
