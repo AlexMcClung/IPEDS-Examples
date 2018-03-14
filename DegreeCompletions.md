@@ -7,7 +7,7 @@ This is particularly handy for looking at field of degree completion trends when
 ### Files Needed
 * IPEDS Degree Completions
 * IPEDS Institutional Characteristics
-* [CIP lookup file](https://nces.ed.gov/ipeds/cipcode/resources.aspx?y=55) - CIPCode2010 file for CIP titles and descriptions
+* [CIP lookup file](https://nces.ed.gov/ipeds/cipcode/resources.aspx?y=55) - Download CIPCode2010 file for CIP titles and descriptions
 * Carnegie CIP Coding (optional) - for comparing mix of lib arts / pre professional
 
 ### Process
