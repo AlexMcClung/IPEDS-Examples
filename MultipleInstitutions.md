@@ -25,3 +25,8 @@ dput(as.numeric(df$UnitID))
 ![shot2](img/ipeds-comma-sep.PNG)
 
 Once you paste these in, the search tool will detect the schools and you can press *Select* and continue on with choosing your variables of interest.
+
+## Bonus Tip
+If you are interested in looking at a particular College/University relative to its peers, you can see a version of a peer group for any school by taking a peek at their IPEDS Data Feedback report.
+
+This report can be found in the IPEDS data center by going to "Look up an institution" and then after following the link to the institution, you can change from the default institutional profile to either "Reported Data" or "Data Feedback Reports". The first page of the Feedback Report has a list of peer schools which can be customized by each school if they choose. 
