@@ -4,7 +4,9 @@ Estimate discount rate using IPEDS Student Financial Aid (SFA) survey
 
 The SFA survey has institutional grant aid for undergraduates. Combined with the number of undergraduates and the sticker price, we can estimate discount rate or net tuition revenue. This is not going to match NACUBO discount rate survey results since the NACUBO survey accounts for Tuition waivers or Tuition benefits and the IPEDS SFA does not.
 
+Here is the relevant SFA screen in the IPEDS data center: 
 ![IPEDS Screenshot](img/sfa-grab1.png)
-...
+
+Scrolling down reveals options for downloading data on institutional grant aid:
 ![IPEDS Screenshot](img/sfa-grab2.png)
-...
+
