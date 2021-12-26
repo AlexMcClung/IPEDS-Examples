@@ -10,3 +10,4 @@ Here is the relevant SFA screen in the IPEDS data center:
 Scrolling down reveals options for downloading data on institutional grant aid:
 ![IPEDS Screenshot2](img/sfa-grab2.png)
 
+Sticker price is available from the IPEDS data center under "Student Charges" > "Tuition and Fees" > "Published tuition and fees".
