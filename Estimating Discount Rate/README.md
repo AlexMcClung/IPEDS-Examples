@@ -11,3 +11,7 @@ Scrolling down reveals options for downloading data on institutional grant aid:
 ![IPEDS Screenshot2](img/sfa-grab2.png)
 
 Sticker price is available from the IPEDS data center under "Student Charges" > "Tuition and Fees" > "Published tuition and fees".
+
+An example data set can be found here in the data folder. This example uses the "IvyPlus" group of schools whose IPEDS UnitIDs can be found in the src folder.
+
+Also in the src folder is code which can be used with this data set to calculate an estimated discount rate and produce a linegraph of this rate over time. The example linegraph can be found in the outputs folder.
