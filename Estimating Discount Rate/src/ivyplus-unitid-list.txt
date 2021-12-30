@@ -1,3 +1,6 @@
+# Ivyplus UnitID list for downloading data from IPEDS data center
+# see MultipleInstitutions.md
+
 130794,
 144050,
 166027,
